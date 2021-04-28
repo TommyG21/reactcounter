@@ -1,1 +1,40 @@
-/* Other rules */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  background-color: white;
+  height: 100px;
+  width: 180px;
+  margin: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: white;
+  text-align: center;
+}
+
+span {
+  font-size: 45px;
+}
+
+footer {
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+  background-color: #5c48d3;
+  text-align: center;
+  color: white;
+}
