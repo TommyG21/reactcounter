@@ -8,10 +8,12 @@ function App() {
     <div className="container">
       <div>
         <header>React Counter</header>
-        <button>-</button>
+        <button onClick>-</button>
         <Button counter={counter} setCounter={setCounter} />
-        <button>+</button>
-        <button className="reset">Reset</button>
+        <button onClick>+</button>
+        <button className="reset" onClick>
+          Reset
+        </button>
         <footer>Made by Tom at Le Réacteur- 2021</footer>
       </div>
     </div>

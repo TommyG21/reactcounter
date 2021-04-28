@@ -12,8 +12,8 @@ header {
 
 button {
   background-color: white;
-  height: auto;
-  width: auto;
+  height: 120px;
+  width: 120px;
   margin: 20px;
   font-size: 30px;
   border-radius: 10px;

@@ -6,7 +6,7 @@ const Button = (props) => {
         props.setCounter(props.counter + 1);
       }}
     >
-      O
+      0
     </button>
   );
 };
